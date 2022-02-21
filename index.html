@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/animate.min.css" />
+
+  <link rel="stylesheet" href="css/hover.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="css/bootstrap.css.map">
+
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="js" href="css/bootstrap.js" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="css/myStyle.css">
+
+  <style>
+
+  </style>
+
+</head>
+
+
+<body>
+  <!-- 1st green header-section  -->
+  <section class="up-nav container-fluid bg-green1 text-light py-2 px-1 ">
+    <div class=" row row-cols-md-1 row-cols-lg-2 nv1 mx-auto w-80">
+      <div class="col marq-1">
+
+        <p class="m-0 fs-5 text-nowrap marq me-2">WHATEVER YOU'VE GOT IN MIND .. WE'VE GOT INSIDE</p>
+        <marquee id="main-marq" class="px-2 d-flex w-100">
+          <!-- append here -->
+        </marquee>
+      </div>
+
+
+
+
+      <!-- 2nd col right -->
+      <div class="col  container-lang pe-3">
+        <div class="d-flex mx-auto justify-content-end lang-crncy-row ">
+          <!-- 1-appstore -->
+          <div class="d-flex justify-content-center align-items-center pe-3">
+            <i class="fa-brands fa-app-store-ios fs-3"></i>
+            <p class="m-0 px-2 nav-p fs-5">APPSTORE</p>
+            <i class="fa-thin fa-acorn"></i>
+          </div>
+
+          <!-- 2-googleplay -->
+          <div class="d-flex justify-content-center align-items-center pe-3">
+            <!-- <i class="fa-solid fa-circle-notch fa-spin"></i> -->
+            <i class="fa-brands fa-google-play fs-4"></i>
+            <p class="m-0 px-2 nav-p fs-5">GOOGLEPLAY</p>
+
+          </div>
+
+
+          <!-- 3-language -->
+          <div class="bg-transparent position-relative d-flex justify-content-center align-items-center pe-3">
+            <!-- menue header -->
+            <div class="lang-header d-flex justify-content-center align-items-center">
+              <p class="m-0 pe-1 me-1 fs-5">ENG</p><i class="fa-solid fa-caret-down"></i>
+            </div>
+            <!-- menu body -->
+            <div id="lang" class="d-none  text-light position-relative shadow p-3">
+
+              <p> <a href="#"><span class="nav-p"> ENGLISH &nbsp</span>( <span class="lspan"> ENG </span>)</a></p>
+              <p> <a href="#"><span class="nav-p">RUSSIAN &nbsp </span>(<span class="lspan"> RU </span>)</a> </p>
+              <p> <a href="#"><span class="nav-p">FRENSH &nbsp</span>( <span class="lspan"> FR </span>)</a> </p>
+              <p> <a href="#"><span class="nav-p">SPANISH &nbsp</span>( <span class="lspan"> ES </span>)</a></p>
+
+            </div>
+
+          </div>
+
+          <!-- 4-USD CURRENCY -->
+
+          <div class="bg-transparent  position-relative d-flex justify-content-center align-items-center pe-3">
+            <!-- menue header -->
+            <div class="d-flex crncy-header justify-content-center align-items-center overflow-hidden">
+
+              <p class="m-0 pe-1 me-1 fs-5">USD</p><i class="fa-solid fa-caret-down me-1"></i>
+
+
+
+            </div>
+            <!-- menu body -->
+            <div id="crncy" class="d-none text-light position-absolute shadow p-3">
+
+              <p> <a href="#" class="text-nowrap"> <span>USD </span>($)</a> </p>
+              <p> <a href="#" class="text-nowrap"><span> EUR</span> (€)</a> </p>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- *************************************************************************** -->
+  <!-- 2nd nav -->
+  <section class="middle-nav container-fluid bg-white overflow-hidden">
+    <div class="row mx-auto w-80 nv1 users-col2">
+      <!-- col1 -->
+      <div class=" col-sm-12 col-lg-7 d-flex align-items-center py-3">
+        <!-- logo -->
+        <img src="img/logo.png" alt="" class="logo img-fluid w-15 pe-3 animate__slideInLeft animate__animated"
+          style="object-fit: contain;min-width: 90px;">
+
+
+        <div class="input-group mx-3 group-search">
+
+          <select class="btn btn-outline-secondary dropdown-toggle px-1 i-search-menu" type="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+
+            <option value="Product" class="bg-light border border-dark">Product</option>
+            <option value="Supplier" class="bg-light" selected>Supplier</option>
+            <option value="All" class="bg-light">All</option>
+
+          </select>
+          <input type="text" class="form-control i-search" aria-label="Text input with dropdown button"
+            placeholder="Enter your Keyword...">
+        </div>
+
+      </div>
+
+      <!-- col2 -->
+      <div class="col col-sm-12 col-lg-5 col-users d-flex  align-items-center justify-content-between ">
+
+        <!-- user -->
+        <div class="row mx-auto account-text">
+          <div class="col-4 ps-4">
+            <i class="fa-solid fa-user  fs-2  p-3 "></i></div>
+
+          <div class="col-8 log-text ">
+            <h5 class=" d-flex align-items-center fw-bold pe-2 text-nowrap">MY ACCOUNT <span>
+                <i class="fa-solid fa-caret-down ms-2"></i></span></h5>
+
+            <h6>LOGIN / JOIN</h6>
+          </div>
+        </div>
+
+        <!-- cart  -->
+        <div class="row d-flex">
+          <div class="col-4 d-flex align-items-center">
+            <i class="fa-solid fa-cart-shopping  fs-3 px-3 me-4 p-3"></i>
+            <i class="fa-solid fa-magnifying-glass fs-3 px-3 d-none search-1i"></i>
+          </div>
+
+          <div class="col-8 px-3 log-text">
+            <h5 class=" d-flex align-items-center fw-bold text-nowrap">MY CART</h5>
+            <h6>35 EGP</h6>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bottom-nav p-2 ">
+    <div class=" toggler-container   w-80 mx-auto">
+      <!-- <a class="navbar-brand" href="#"></a> -->
+
+      <button class="navbar-toggler border p-3 px-4 rounded-0 border-green1" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars text-green1"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav d-flex align-items-center py-0">
+          <!-- CATEGORIES -->
+          <div
+            class="dropdown-cat bg-green1 position-relative
+              text-light fw-bold h-40 w-fixed-100
+               row py-3 m-0 justify-content-between
+              align-items-center ">
+            <h5 class="col px-2">CATEGORIES</h5>
+            <i class="fa-solid fa-list col px-2 text-end"></i>
+
+            <!-- w-fixed-100 -->
+            <div class="dropdown-content-cat px-0 my-4 position-absolute animate__fadeIn animate__animated ">
+            
+              <a href="#" class="a-women d-flex align-items-center justify-content-between">
+                WOMEN'S CLOTHING
+                <i class="fa-solid fa-angle-right"></i>
+              </a>
+
+              <a href="#" class="a-men">MEN'S CLOTHING
+
+              </a>
+              <a href="#">PHONES & ACCESSORIES</a>
+
+              <a href="#">COMPUTER & OFFICE</a>
+              <a href="#">CONSUMER ELETRONICS</a>
+              <a href="#">JEWELERIES & WATCHES</a>
+              <a href="#">BAGS & SHOES</a>
+              <a href="#">VIEW ALL</a>
+
+            </div>
+
+          </div>
+
+
+          <a class="nav-link active fs-5" aria-current="page" href="#">HOME</a>
+          <a class="nav-link fs-5 link-dark" aria-current="page" href="#">SHOP</a>
+
+
+          <!-- WOMEN  -->
+          <li class="nav-item dropdown fs-5 men">
+            <a class="nav-link dropdown-toggle fs-5 " href="#" id="navbarDropdown-women" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              WOMEN
+            </a> </li>
+          <!-- mega-menu -->
+          <div
+            class="mega-content-women container w-50 mx-auto bg-dark position-absolute shadow animate__fadeIn animate__animated bg-white">
+
+            <div class="row  row-cols-md-3 mx-auto ">
+              <!-- col1 -->
+              <div class="col">
+
+                <h4>CATEGORIES</h4>
+                <p>WOMEN'S CLOSING</p>
+                <p>MEN'S CLOTHING</p>
+                <p>PHONES AND ACCESSORIES</p>
+                <p>JEWELERY AND WATCHES</p>
+                <p>BAGS AND SHOES</p>
+              </div>
+
+              <!-- col2 -->
+              <div class="col">
+
+                <h4>CATEGORIES</h4>
+                <p>WOMEN'S CLOSING</p>
+                <p>MEN'S CLOTHING</p>
+
+                <p>PHONES AND ACCESSORIES</p>
+
+
+
+                <p>JEWELERY AND WATCHES</p>
+                <p>BAGS AND SHOES</p>
+
+              </div>
+
+              <!-- col3-->
+              <div class="col">
+                <h4>CATEGORIES</h4>
+                <p>WOMEN'S CLOSING</p>
+                <p>MEN'S CLOTHING</p>
+                <p>PHONES AND ACCESSORIES</p>
+                <p>JEWELERY AND WATCHES</p>
+                <p>BAGS AND SHOES</p>
+
+              </div>
+
+
+            </div>
+            <img src="img/banner05.jpg" alt="" class="img-fluid">
+          </div>
+          <!--  -->
+
+          <!-- MEN -->
+          <li class="nav-item dropdown fs-5 men">
+            <a class="nav-link dropdown-toggle fs-5 " href="#" id="navbarDropdown-men" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              MEN
+            </a> </li>
+          <!-- mega-menu -->
+          <div
+            class="mega-content-men container mx-auto bg-dark position-absolute shadow animate__fadeIn animate__animated bg-white">
+
+            <div class="row row-cols-md-4 mx-auto ">
+              <!-- col1 -->
+              <div class="col">
+                <img src="img/banner06.jpg" alt="" class="img-fluid mb-4">
+                <h4>CATEGORIES</h4>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi commodi aliquam saepe tempora,
+                  accusantium amet dolorem quis animi natus nesciunt perspiciatis nemo minus doloremque ratione
+                </P>
+
+              </div>
+
+              <!-- col2 -->
+              <div class="col">
+                <img src="img/banner07.jpg" alt="" class="img-fluid mb-4">
+                <h4>CATEGORIES</h4>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi commodi aliquam saepe tempora,
+                  accusantium amet dolorem quis animi natus nesciunt perspiciatis nemo minus doloremque ratione
+                </P>
+
+              </div>
+
+              <!-- col3-->
+              <div class="col">
+                <img src="img/banner08.jpg" alt="" class="img-fluid mb-4">
+                <h4>CATEGORIES</h4>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi commodi aliquam saepe tempora,
+                  accusantium amet dolorem quis animi natus nesciunt perspiciatis nemo minus doloremque ratione
+                </P>
+
+              </div>
+
+              <!-- col4 -->
+              <div class="col">
+                <img src="img/banner09.jpg" alt="" class="img-fluid mb-4">
+                <h4>CATEGORIES</h4>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi commodi aliquam saepe tempora,
+                  accusantium amet dolorem quis animi natus nesciunt perspiciatis nemo minus doloremque ratione
+                </P>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!--  -->
+          <a class="nav-link fs-5" href="#">SALES</a>
+          <!--  -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              PAGES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <!--  -->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="container-fluid container-slider px-0">
+    <img src="img/R.jpg" alt="" class=" w-100" style="object-fit: cover; min-height:800px !important">
+  </section>
+  <!-- jquery -->
+  <script>
+    $(document).ready(function () {
+
+      $('#lang, #crncy').addClass('position-absolute  text-dark animate__fadeIn animate__animated bg-white')
+      $('#lang a,#crncy a').addClass('link-dark nav-link d-flex text-nowrap')
+      $(".bottom-nav a").addClass('px-4')
+
+      $(".bottom-nav a").on('click mouseover', function () {
+        $('.bottom-nav a').removeClass('active');
+        $(this).addClass('active')
+      })
+      // to hide all menus before any hover on the nav-links
+      $(".bottom-nav a").on(' mouseover', function () {
+        $.hideWomenMegaMenu();
+        $.hidemenMegaMenu();
+      })
+      //////////// show men mega menu men
+      $('#navbarDropdown-men').on('click mouseover', function () {
+
+        $.hideWomenMegaMenu();
+        $('.mega-content-men').addClass('d-block')
+
+        if ($(".mega-content-men").hasClass('d-none')) {
+          $(".mega-content-men").removeClass('d-none')
+          $(".mega-content-men").addClass('d-block')
+
+
+        } else {
+          // $.hideCurrLangManu();  
+
+          $.hideWomenMegaMenu();
+
+        }
+      })
+
+
+      //////////// show women mega menu women
+
+      $('#navbarDropdown-women').on('click mouseover', function () {
+
+        $('.mega-content-women').addClass('d-block')
+        $.hidemenMegaMenu();
+        if ($(".mega-content-women").hasClass('d-none')) {
+          $.showWomenMegaMenu();
+
+        } else {
+          $.hideWomenMegaMenu();
+
+        }
+      })
+
+
+      //////
+
+      $('.mega-content-women').mouseleave(function () {
+        $.hideWomenMegaMenu();
+      })
+
+      $('.mega-content-men').mouseleave(function () {
+        $.hidemenMegaMenu();
+      })
+
+      /////
+
+      jQuery.extend({
+        showWomenMegaMenu: function () {
+          $(".mega-content-women").addClass('d-block')
+          $(".mega-content-women").removeClass('d-none')
+        }
+      });
+
+
+      jQuery.extend({
+        hideWomenMegaMenu: function () {
+          $(".mega-content-women").removeClass('d-block')
+          $(".mega-content-women").addClass('d-none')
+
+        }
+      });
+      jQuery.extend({
+        hidemenMegaMenu: function () {
+
+          $(".mega-content-men").removeClass('d-block')
+          $(".mega-content-men").addClass('d-none')
+        }
+      });
+
+      //////
+      $('.a-women').on('click mouseover', function () {
+        $.showWomenMegaMenu();
+        $(".mega-content-women").css('left','26%')
+      })
+      ////////////////// click the LANGUAGE menue ///////////////
+      $(".lang-header").on('click mouseover', function () {
+        $("#lang").css('transition', '.1s')
+        $("#crncy").addClass('d-none')
+
+        if ($("#lang").hasClass('d-none')) {
+          $("#lang").removeClass('d-none')
+          $("#lang").addClass('d-block')
+
+        } else {
+          $.hideCurrLangManu();
+        }
+      })
+
+      ////////////////// click the CURRENCY menu ///////////////
+      $(".crncy-header").on('click mouseover', function () {
+
+        $("#lang").addClass('d-none')
+
+        if ($("#crncy").hasClass('d-none')) {
+
+          $("#crncy").removeClass('d-none')
+          $("#crncy").addClass('d-block')
+
+        } else {
+          $.hideCurrLangManu();
+        }
+      })
+
+      ////////////// selecting language items ///////////////////////
+      $('#lang a').click(function () {
+        var x = $(this).find('span.lspan').text()
+        //  alert()
+        $('.lang-header P').text(x)
+        $.hideCurrLangManu();
+
+      });
+
+      ////////////// selecting currency items ///////////////////////
+      $('#crncy a').click(function () {
+        var x = $(this).find('span').text()
+        //  alert()
+        $('.crncy-header P').text(x)
+
+        $.hideCurrLangManu();
+      })
+    });
+
+    /// hide menus method:
+    jQuery.extend({
+      hideCurrLangManu: function () {
+        $("#crncy").addClass('d-none')
+        $("#crncy").removeClass('d-block');
+        $("#lang").addClass('d-none')
+        $("#lang").removeClass('d-block')
+
+      }
+    });
+
+    // $( "*" ).not( ".crncy-header,.lang-header" ).click(function () {
+    //   // $.hideCurrLangManu();
+    // })
+
+    $('.middle-nav,.bottom-nav,.container-slider').click(function () {
+      $.hideCurrLangManu();
+    })
+    ////////////////////////////// RESIZING ///////////////
+
+    $(window).resize(function () {
+
+      /////1-marquee
+
+      if (window.matchMedia('(max-width:1440px)').matches) {
+        $('.marq').appendTo('#main-marq').addClass('text-center')
+      } else {
+
+        $('.marq').appendTo('.marq-1')
+      }
+
+      ////////// move the toggler-btn ////////
+      if (window.matchMedia('(max-width:992px)').matches) {
+
+        $('.navbar-toggler').appendTo('.col-users').css({
+          'margin-left': '12%'
+        })
+        $('nav').css({
+          'transition': '.1s ',
+          'position': 'relative',
+          'height': '0px'
+        })
+      } else {
+        $('.navbar-toggler').appendTo('.toggler-container')
+        $('nav').css({
+          'height': '60px'
+        })
+      }
+
+
+      if (window.matchMedia('(max-width:600px)').matches) {
+        $('.nav-p').addClass('d-none')
+        $('.nav-p').removeClass('d-block')
+
+
+      } else {
+        $('.nav-p').removeClass('d-none')
+        $('.nav-p').addClass('d-block')
+
+
+      }
+      /////////////////////////// 425////////////////
+
+      if (window.matchMedia('(max-width:425px)').matches) {
+
+        $('.col-users').appendTo('.group-search')
+        $('.col-users i').addClass('.text-green1')
+
+      } else {
+        $('.col-users').appendTo('.users-col2')
+
+      }
+
+
+    })
+  </script>
+</body>
+
+</html>
